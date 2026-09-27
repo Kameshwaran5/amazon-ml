@@ -1,0 +1,11 @@
+# Production dependencies for Amazon ML Challenge 2026 - Business Entity Resolution
+lightgbm>=4.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+psutil>=5.9.0
+rapidfuzz>=3.0.0
+jellyfish>=1.0.0
+unidecode>=1.3.6
+scikit-learn>=1.3.0
+scipy>=1.10.0
+catboost>=1.2.0

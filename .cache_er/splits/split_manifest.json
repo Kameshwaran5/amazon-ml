@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "val_ratio": 0.2,
+  "held_out_country": "India",
+  "total_entities": 2206821,
+  "n_train": 1765456,
+  "n_val": 441365,
+  "stats": {
+    "US": {
+      "total": 1323633,
+      "train": 1058906,
+      "val": 264727,
+      "val_percentage": 20.0
+    },
+    "India": {
+      "total": 883188,
+      "train": 706550,
+      "val": 176638,
+      "val_percentage": 20.0
+    }
+  },
+  "loco_stats": {
+    "held_out_country": "India",
+    "loco_train_count": 1323633,
+    "loco_val_count": 883188
+  }
+}

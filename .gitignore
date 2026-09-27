@@ -1,0 +1,25 @@
+# Competition Raw Datasets (2.3+ GB; download separately into dataset/)
+dataset/
+
+# Large submission archives and test candidate pairs (>100MB; exceeds GitHub hard limit)
+antigravity_er_lab_submission.zip
+output/candidate_pairs.tsv
+output/raw_matches_tmp.tsv
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Diagnostic cache NPZ files
+.cache_er/*.npz
+catboost_info/
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
